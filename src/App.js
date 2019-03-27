@@ -15,16 +15,16 @@ class App extends Component {
 
         <Products>
 
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
-          <Product symbol="🍕"/>
+          <Product symbol="🍕" label="cheese"/>
+          <Product symbol="🍟" label="cheese"/>
+          <Product symbol="🌭" label="cheese"/>
+          <Product symbol="🍕" label="cheese"/>
+          <Product symbol="🌮" label="cheese"/>
+          <Product symbol="🍕" label="cheese"/>
+          <Product symbol="🍕" label="cheese"/>
+          <Product symbol="🍕" label="cheese"/>
+          <Product symbol="🍕" label="cheese"/>
+          <Product symbol="🍕" label="cheese"/>
           
         </Products>
 
