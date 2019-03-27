@@ -1,0 +1,18 @@
+.main_container
+{
+    background-color: oldlace;
+    border-radius: 0.25rem 0.5rem 0.05rem 0.1rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem #EFC3E6;
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.floating_emoji
+{
+    font-size: 3rem;
+}
