@@ -1,8 +1,59 @@
-.main_view
-{
+@keyframes mymove {
+    0% {
+        top: calc(50% - 5rem);
+    }
+    50% {
+        top: calc(40% - 5rem);
+    }
+    100% {
+        top: calc(50% - 5rem);
+    }
+}
+
+@keyframes mymove_mq {
+    0% {
+        top: calc(60% - 3rem);
+    }
+    50% {
+        top: calc(50% - 3rem);
+    }
+    100% {
+        top: calc(60% - 3rem);
+    }
+}
+
+.main_view {
     background-color: #F0E6EF;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
     grid-gap: 1rem;
     padding: 1rem;
+}
+
+.loading {
+    position: absolute;
+    left: calc(50% - 5rem);
+    top: calc(50% - 5rem);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    animation: mymove 1s infinite;
+    animation-timing-function: linear;
+}
+
+@media(max-width: 600px) {
+    .loading {
+        position: absolute;
+        left: calc(50% - 3rem);
+        top: calc(50vh - 3rem);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        animation: mymove_mq 1s infinite;
+        animation-timing-function: linear;
+    }
 }

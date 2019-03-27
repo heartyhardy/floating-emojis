@@ -1,3 +1,9 @@
+@keyframes mymove {
+    0% {top: 0px;}
+    50% {top: -40px;}
+    100% {top: 0px;}
+}
+
 .main_container
 {
     display: flex;
@@ -21,12 +27,6 @@
     box-shadow: .1rem .1rem 1rem #9C89B8;
     border-radius: 50%;
     transition: background-color 1s, border-radius .1s, box-shadow 1s ease-out;
-}
-
-@keyframes mymove {
-    0% {top: 0px;}
-    50% {top: -40px;}
-    100% {top: 0px;}
 }
 
 .floating_emoji
