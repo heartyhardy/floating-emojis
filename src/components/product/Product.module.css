@@ -39,7 +39,7 @@
 
 .caption
 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #330C2F;
     font-weight: bold;
     background-color: #F0E6EF;
@@ -50,6 +50,7 @@
 }
 
 .caption p {
+    font-family: 'Poppins', sans-serif;
     text-shadow: 0 0.1rem 0.5rem #F0A6CA;
 }
 
