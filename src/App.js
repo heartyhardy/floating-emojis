@@ -33,7 +33,7 @@ class App extends Component {
       <div className="App">
 
         <header className="App-header">
-          <Navbar title={this.props.title} onFilter={this.setFilter} />
+          <Navbar title={this.props.title} active={this.state.category} onFilter={this.setFilter} />
         </header>
 
         <Products isLoading={this.state.isLoading} loadingIcon="⏱">

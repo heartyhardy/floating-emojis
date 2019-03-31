@@ -45,8 +45,19 @@
     font-size: 1.2rem;
     transition: all .5s linear;
 }
+.nav_link_filtered {
+    background-color: transparent;
+    border: none;
+    outline-style: none;
+    color: #F0A6CA;
+    text-shadow: 0 2px 10px #f0e6ef70;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    transition: all .5s linear;
+}
 
-.nav_link:active, .nav_link:hover, .nav_link active {
+.nav_link:active, .nav_link:hover{
     color: #F0A6CA;
     text-shadow: 0 2px 10px #f0e6ef70;
     transition: all .5s linear;
@@ -78,6 +89,12 @@
         padding: 0.2rem 1rem 0.2rem 1rem;
         border-radius: 0.65rem;
         border: 2px solid black;
+        transition: all .5s linear;
+    }
+    .title:hover{
+        color: #ff70bc;
+        text-shadow: 0 2px 10px #9C89B8;
+        transition: all .5s linear;
     }
     .nav_link {
         color: #9C89B8;
@@ -85,13 +102,15 @@
         font-family: 'Oswald', sans-serif;
         font-size: 0.75rem;
         cursor: pointer;
+        transition: color .5s linear;
     }
-    .nav_link:active, .nav_link:hover, .nav_link active {
+    .nav_link:active, .nav_link:hover {
         color: #F0A6CA;
         background-color: #9c89b880;
         border-radius: 0.5rem;
         border: 0.1rem solid #F0A6CA;
         padding: 0.1rem 2rem 0.1rem 2rem;
         cursor: pointer;
+        transition: color .5s linear;
     }
 }
