@@ -15,22 +15,31 @@ class App extends Component {
     }
   }
 
+  setFilter = (event) => {
+    this.setState({category:event.target.getAttribute('category')});
+  }
+
   componentDidMount() {
     setTimeout(() => this.setState({ isLoading: false }), 1000);
   }
 
   render() {
+
+    let filtered_emojis = (this.state.category === 'all') ? 
+      service():
+      service().filter(prod => prod.category === this.state.category);
+
     return (
       <div className="App">
 
         <header className="App-header">
-          <Navbar title={this.props.title} />
+          <Navbar title={this.props.title} onFilter={this.setFilter} />
         </header>
 
         <Products isLoading={this.state.isLoading} loadingIcon="⏱">
           {
-            service().map((prod, index) => {
-              return (<Product key={index} symbol={prod.emoji} label={prod.name} />)
+            filtered_emojis.map((prod, index) => {
+              return (<Product key={index} symbol={prod.emoji} label={prod.name}/>)
             })
           }
         </Products>

@@ -4,12 +4,12 @@ import style from './Navbar.module.css';
 const Navbar = (props) => (
     <nav className={style.main_nav}>
         <ul className={style.nav_elements}>
-            <li className={style.title}>{props.title}</li>
-            <li className={style.nav_element}><a className={style.nav_link} href="/" >FOOD</a></li>
-            <li className={style.nav_element}><a className={style.nav_link} href="/" >FRUITS</a></li>
-            <li className={style.nav_element}><a className={style.nav_link} href="/" >VEGGIE</a></li>
-            <li className={style.nav_element}><a className={style.nav_link} href="/" >SWEETS</a></li>
-            <li className={style.nav_element}><a className={style.nav_link} href="/" >DRINKS</a></li>
+            <li className={style.title} onClick={props.onFilter} category="all">{props.title}</li>
+            <li className={style.nav_element}><button className={style.nav_link} onClick={props.onFilter} category="food">FOOD</button></li>
+            <li className={style.nav_element}><button className={style.nav_link} onClick={props.onFilter} category="fruits">FRUITS</button></li>
+            <li className={style.nav_element}><button className={style.nav_link}>VEGGIE</button></li>
+            <li className={style.nav_element}><button className={style.nav_link}>SWEETS</button></li>
+            <li className={style.nav_element}><button className={style.nav_link}>DRINKS</button></li>
         </ul>
     </nav>
 )

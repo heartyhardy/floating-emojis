@@ -85,9 +85,74 @@ const products = [
         emoji: "🥘"
     },
     {
-        name: "Tuna salad",
-        category: "food",
-        emoji: "🥗"
+        name: "Grapes",
+        category: "fruits",
+        emoji: "🍇"
+    },
+    {
+        name: "Melon",
+        category: "fruits",
+        emoji: "🍈"
+    },
+    {
+        name: "Water melon",
+        category: "fruits",
+        emoji: "🍉"
+    },
+    {
+        name: "Tangerine",
+        category: "fruits",
+        emoji: "🍊"
+    },
+    {
+        name: "Lemon",
+        category: "fruits",
+        emoji: "🍋"
+    },
+    {
+        name: "Banana",
+        category: "fruits",
+        emoji: "🍌"
+    },
+    {
+        name: "Pineapple",
+        category: "fruits",
+        emoji: "🍍"
+    },
+    {
+        name: "Red apple",
+        category: "fruits",
+        emoji: "🍎"
+    },
+    {
+        name: "Green apple",
+        category: "fruits",
+        emoji: "🍏"
+    },
+    {
+        name: "Pear",
+        category: "fruits",
+        emoji: "🍐"
+    },
+    {
+        name: "Peach",
+        category: "fruits",
+        emoji: "🍑"
+    },
+    {
+        name: "Cherries",
+        category: "fruits",
+        emoji: "🍒"
+    },
+    {
+        name: "Strawberry",
+        category: "fruits",
+        emoji: "🍓"
+    },
+    {
+        name: "Kiwi",
+        category: "fruits",
+        emoji: "🥝"
     },
 ]
 
