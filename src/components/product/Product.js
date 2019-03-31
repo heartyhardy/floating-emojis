@@ -12,6 +12,7 @@ const Product = (props) => (
             >
                 {props.symbol}
             </span>
+            <span className={styles.emoji_trial}>𓃑</span>
         </div>
         <div className={styles.caption}>
             <p>{props.label}</p>

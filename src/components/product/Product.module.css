@@ -1,4 +1,4 @@
-@keyframes mymove {
+@keyframes floating {
     0% {top: 0px;}
     50% {top: -40px;}
     100% {top: 0px;}
@@ -63,14 +63,28 @@
     align-items: center;
     cursor: pointer;
     transition: all 1s ease-out;
+    z-index: 2;
 }
 
 .floating_emoji:hover
 {
     position: relative;
     font-size: 3.1rem;
-    animation: mymove 1s infinite;
+    animation: floating 1s infinite;
     animation-timing-function: linear;
     text-shadow: .1rem .1rem 1rem rgba(51, 12, 47, 0.658);
     transition: all 1s ease-out;
+}
+
+.emoji_trial
+{
+    position: absolute;
+    font-size: 2.5rem; 
+    color: #F0A6CA;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
 }
