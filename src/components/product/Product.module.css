@@ -4,6 +4,14 @@
     100% {top: 0px;}
 }
 
+.outer_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .main_container
 {
     display: flex;
@@ -27,6 +35,22 @@
     box-shadow: .1rem .1rem 1rem #9C89B8;
     border-radius: 50%;
     transition: background-color 1s, border-radius .1s, box-shadow 1s ease-out;
+}
+
+.caption
+{
+    font-size: 1rem;
+    color: #330C2F;
+    font-weight: bold;
+    background-color: #F0E6EF;
+    border-radius: 0.5rem;
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    text-align: center;
+    user-select: none;
+}
+
+.caption p {
+    text-shadow: 0 0.1rem 0.5rem #F0A6CA;
 }
 
 .floating_emoji
