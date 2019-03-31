@@ -15,6 +15,17 @@
     transition: all .5s linear;
 }
 
+.title_filtered{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    color: #ff70bc;
+    text-shadow: 0 2px 10px #9C89B8;
+    padding: 0.5rem;
+    user-select: none;
+    cursor: pointer;
+    transition: all .5s linear;
+}
+
 .main_nav {
     background-image: linear-gradient(to right, #330C2F, #4e185e);
     box-shadow: 0 1px 10px #1d071b8c;
@@ -93,7 +104,20 @@
     }
     .title:hover{
         color: #ff70bc;
+        text-shadow: 0 0.5rem 0.1rem #9C89B8;
+        transition: all .5s linear;
+    }
+    .title_filtered{
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.85rem;
+        color: #ff9dd1;
         text-shadow: 0 2px 10px #9C89B8;
+        background-color: #9C89B8;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        border: 2px solid black;
+        border-radius: 0.65rem;
+        user-select: none;
+        cursor: pointer;
         transition: all .5s linear;
     }
     .nav_link {
@@ -103,6 +127,21 @@
         font-size: 0.75rem;
         cursor: pointer;
         transition: color .5s linear;
+    }
+    .nav_link_filtered {
+        background-color: transparent;
+        border: none;
+        outline-style: none;
+        color: #F0A6CA;
+        background-color: #9c89b880;
+        border-radius: 0.5rem;
+        border: 0.1rem solid #F0A6CA;
+        padding: 0.1rem 2rem 0.1rem 2rem;
+        text-shadow: 0 0.1rem 1rem #f0e6ef70;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-size: 0.8rem;
+        transition: all .5s linear;
     }
     .nav_link:active, .nav_link:hover {
         color: #F0A6CA;

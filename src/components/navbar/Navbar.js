@@ -4,7 +4,7 @@ import style from './Navbar.module.css';
 const Navbar = (props) => (
     <nav className={style.main_nav}>
         <ul className={style.nav_elements}>
-            <li className={style.title} onClick={props.onFilter} category="all">{props.title}</li>
+            <li className={props.active!=='all' ? style.title : style.title_filtered} onClick={props.onFilter} category="all">{props.title}</li>
             <li className={style.nav_element}><button className={props.active!=='food' ? style.nav_link : style.nav_link_filtered} onClick={props.onFilter} category="food">FOOD</button></li>
             <li className={style.nav_element}><button className={props.active!=='fruits' ? style.nav_link : style.nav_link_filtered} onClick={props.onFilter} category="fruits">FRUITS</button></li>
             <li className={style.nav_element}><button className={style.nav_link}>VEGGIE</button></li>

@@ -23,6 +23,11 @@ class App extends Component {
     setTimeout(() => this.setState({ isLoading: false }), 1000);
   }
 
+  componentDidUpdate()
+  {
+    console.log('updated');
+  }
+
   render() {
 
     let filtered_emojis = (this.state.category === 'all') ? 
