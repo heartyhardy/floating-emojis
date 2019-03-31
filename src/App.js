@@ -30,7 +30,7 @@ class App extends Component {
         <Products isLoading={this.state.isLoading} loadingIcon="⏱">
           {
             service().map((prod, index) => {
-              return <Product symbol = {prod.emoji} label={prod.name} />
+              return (<Product key={index} symbol={prod.emoji} label={prod.name} />)
             })
           }
         </Products>
