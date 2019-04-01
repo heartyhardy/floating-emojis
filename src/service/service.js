@@ -154,6 +154,61 @@ const products = [
         category: "fruits",
         emoji: "🥝"
     },
+    {
+        name: "Tomato",
+        category: "veggie",
+        emoji: "🍅"
+    },
+    {
+        name: "Avacado",
+        category: "veggie",
+        emoji: "🥑"
+    },
+    {
+        name: "Eggplant",
+        category: "veggie",
+        emoji: "🍆"
+    },
+    {
+        name: "Potato",
+        category: "veggie",
+        emoji: "🥔"
+    },
+    {
+        name: "Carrot",
+        category: "veggie",
+        emoji: "🥕"
+    },
+    {
+        name: "Corn",
+        category: "veggie",
+        emoji: "🌽"
+    },
+    {
+        name: "Pepper",
+        category: "veggie",
+        emoji: "🌶"
+    },
+    {
+        name: "Cucumber",
+        category: "veggie",
+        emoji: "🥒"
+    },
+    {
+        name: "Mushroom",
+        category: "veggie",
+        emoji: "🍄"
+    },
+    {
+        name: "Peanuts",
+        category: "veggie",
+        emoji: "🥜"
+    },
+    {
+        name: "Chestnut",
+        category: "veggie",
+        emoji: "🌰"
+    },
 ]
 
 const getService = () => {
