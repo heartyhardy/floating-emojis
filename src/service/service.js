@@ -209,6 +209,71 @@ const products = [
         category: "veggie",
         emoji: "🌰"
     },
+    {
+        name: "Chestnut",
+        category: "sweets",
+        emoji: "🥞"
+    },
+    {
+        name: "Ice cream cone",
+        category: "sweets",
+        emoji: "🍦"
+    },
+    {
+        name: "Shaved ice",
+        category: "sweets",
+        emoji: "🍧"
+    },
+    {
+        name: "Ice cream",
+        category: "sweets",
+        emoji: "🍨"
+    },
+    {
+        name: "Doughnut",
+        category: "sweets",
+        emoji: "🍩"
+    },
+    {
+        name: "Cookie",
+        category: "sweets",
+        emoji: "🍪"
+    },
+    {
+        name: "Bday cake",
+        category: "sweets",
+        emoji: "🎂"
+    },
+    {
+        name: "Short cake",
+        category: "sweets",
+        emoji: "🍰"
+    },
+    {
+        name: "Chocolate bar",
+        category: "sweets",
+        emoji: "🍫"
+    },
+    {
+        name: "Candy",
+        category: "sweets",
+        emoji: "🍬"
+    },
+    {
+        name: "Lollipop",
+        category: "sweets",
+        emoji: "🍭"
+    },
+    {
+        name: "Custard",
+        category: "sweets",
+        emoji: "🍮"
+    },
+    {
+        name: "Honey",
+        category: "sweets",
+        emoji: "🍯"
+    },
 ]
 
 const getService = () => {
