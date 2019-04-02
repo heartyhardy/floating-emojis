@@ -274,6 +274,51 @@ const products = [
         category: "sweets",
         emoji: "🍯"
     },
+    {
+        name: "Baby bottle",
+        category: "drinks",
+        emoji: "🍼"
+    },
+    {
+        name: "Glass of milk",
+        category: "drinks",
+        emoji: "🥛"
+    },
+    {
+        name: "Hot chocolate",
+        category: "drinks",
+        emoji: "☕"
+    },
+    {
+        name: "Green tea",
+        category: "drinks",
+        emoji: "🍵"
+    },
+    {
+        name: "Sake",
+        category: "drinks",
+        emoji: "🍶"
+    },
+    {
+        name: "Red wine",
+        category: "drinks",
+        emoji: "🍷"
+    },
+    {
+        name: "Dry martini",
+        category: "drinks",
+        emoji: "🍸"
+    },
+    {
+        name: "Orange juice",
+        category: "drinks",
+        emoji: "🍹"
+    },
+    {
+        name: "Beer",
+        category: "drinks",
+        emoji: "🍺"
+    },
 ]
 
 const getService = () => {
