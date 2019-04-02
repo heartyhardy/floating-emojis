@@ -1,13 +1,13 @@
 {
-  "main.css": "/heartyhardy/floating-emojis/static/css/main.4c25145d.chunk.css",
-  "main.js": "/heartyhardy/floating-emojis/static/js/main.50e96926.chunk.js",
-  "main.js.map": "/heartyhardy/floating-emojis/static/js/main.50e96926.chunk.js.map",
-  "runtime~main.js": "/heartyhardy/floating-emojis/static/js/runtime~main.f9fb524d.js",
-  "runtime~main.js.map": "/heartyhardy/floating-emojis/static/js/runtime~main.f9fb524d.js.map",
-  "static/js/2.2bad7e3d.chunk.js": "/heartyhardy/floating-emojis/static/js/2.2bad7e3d.chunk.js",
-  "static/js/2.2bad7e3d.chunk.js.map": "/heartyhardy/floating-emojis/static/js/2.2bad7e3d.chunk.js.map",
-  "index.html": "/heartyhardy/floating-emojis/index.html",
-  "precache-manifest.3ac4f79c30429a2c39f0a30212aa37d4.js": "/heartyhardy/floating-emojis/precache-manifest.3ac4f79c30429a2c39f0a30212aa37d4.js",
-  "service-worker.js": "/heartyhardy/floating-emojis/service-worker.js",
-  "static/css/main.4c25145d.chunk.css.map": "/heartyhardy/floating-emojis/static/css/main.4c25145d.chunk.css.map"
+  "main.css": "/floating-emojis/static/css/main.4c25145d.chunk.css",
+  "main.js": "/floating-emojis/static/js/main.16a1d4f1.chunk.js",
+  "main.js.map": "/floating-emojis/static/js/main.16a1d4f1.chunk.js.map",
+  "runtime~main.js": "/floating-emojis/static/js/runtime~main.1d5209a7.js",
+  "runtime~main.js.map": "/floating-emojis/static/js/runtime~main.1d5209a7.js.map",
+  "static/js/2.2bad7e3d.chunk.js": "/floating-emojis/static/js/2.2bad7e3d.chunk.js",
+  "static/js/2.2bad7e3d.chunk.js.map": "/floating-emojis/static/js/2.2bad7e3d.chunk.js.map",
+  "index.html": "/floating-emojis/index.html",
+  "precache-manifest.6890ccb3fbe415c3d002efb9c741767f.js": "/floating-emojis/precache-manifest.6890ccb3fbe415c3d002efb9c741767f.js",
+  "service-worker.js": "/floating-emojis/service-worker.js",
+  "static/css/main.4c25145d.chunk.css.map": "/floating-emojis/static/css/main.4c25145d.chunk.css.map"
 }

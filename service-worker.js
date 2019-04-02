@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/heartyhardy/floating-emojis/precache-manifest.3ac4f79c30429a2c39f0a30212aa37d4.js"
+  "/floating-emojis/precache-manifest.6890ccb3fbe415c3d002efb9c741767f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/heartyhardy/floating-emojis/index.html", {
+workbox.routing.registerNavigationRoute("/floating-emojis/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
