@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "25f5d5e56bde8b824d1f",
-    "url": "/floating-emojis/static/css/main.4c25145d.chunk.css"
+    "revision": "e9bcf07bdb4524c33645",
+    "url": "/floating-emojis/static/css/main.6f8cd2f3.chunk.css"
   },
   {
-    "revision": "25f5d5e56bde8b824d1f",
+    "revision": "e9bcf07bdb4524c33645",
     "url": "/floating-emojis/static/js/main.16a1d4f1.chunk.js"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/floating-emojis/static/js/2.2bad7e3d.chunk.js"
   },
   {
-    "revision": "a811a4608d4d1b23e56e1d40001f2cac",
+    "revision": "d7517346370582d773239977ee382e94",
     "url": "/floating-emojis/index.html"
   }
 ];

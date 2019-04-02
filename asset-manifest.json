@@ -1,5 +1,5 @@
 {
-  "main.css": "/floating-emojis/static/css/main.4c25145d.chunk.css",
+  "main.css": "/floating-emojis/static/css/main.6f8cd2f3.chunk.css",
   "main.js": "/floating-emojis/static/js/main.16a1d4f1.chunk.js",
   "main.js.map": "/floating-emojis/static/js/main.16a1d4f1.chunk.js.map",
   "runtime~main.js": "/floating-emojis/static/js/runtime~main.1d5209a7.js",
@@ -7,7 +7,7 @@
   "static/js/2.2bad7e3d.chunk.js": "/floating-emojis/static/js/2.2bad7e3d.chunk.js",
   "static/js/2.2bad7e3d.chunk.js.map": "/floating-emojis/static/js/2.2bad7e3d.chunk.js.map",
   "index.html": "/floating-emojis/index.html",
-  "precache-manifest.6890ccb3fbe415c3d002efb9c741767f.js": "/floating-emojis/precache-manifest.6890ccb3fbe415c3d002efb9c741767f.js",
+  "precache-manifest.91bf9eb7ad3eb21b34f87bf130440d5f.js": "/floating-emojis/precache-manifest.91bf9eb7ad3eb21b34f87bf130440d5f.js",
   "service-worker.js": "/floating-emojis/service-worker.js",
-  "static/css/main.4c25145d.chunk.css.map": "/floating-emojis/static/css/main.4c25145d.chunk.css.map"
+  "static/css/main.6f8cd2f3.chunk.css.map": "/floating-emojis/static/css/main.6f8cd2f3.chunk.css.map"
 }
