@@ -185,11 +185,6 @@ const products = [
         emoji: "🌽"
     },
     {
-        name: "Pepper",
-        category: "veggie",
-        emoji: "🌶"
-    },
-    {
         name: "Cucumber",
         category: "veggie",
         emoji: "🥒"
